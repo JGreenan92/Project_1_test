@@ -1,0 +1,128 @@
+@media not print {
+  body {
+    background-color: aliceblue;
+    font-family: "Calibri";
+    color: #337ab7;
+  }
+  
+
+  .body-index {
+    background-color: rgb(215, 245, 250);
+  }
+
+  .body-about,
+  .body-register {
+    background-image: url("/img/Ocean Background.jpeg");
+  }
+
+  .nav-pills {
+    background-color: rgb(215, 245, 250);
+    font-size: 1.5em;
+    font-family: "Calibri";
+    font-weight: bold;
+    border-style: solid;
+    border-color: rgb(215, 245, 250);
+    border-width: 5px;
+  }
+
+  main {
+    padding: 2rem;
+    margin: 1em;
+  }
+
+  article {
+    background-color: rgb(140, 208, 240);
+    padding: 4rem;
+    margin: 2em;
+    border-style: solid;
+    border-color: rgb(42, 111, 238);
+  }
+
+  .index-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+  }
+
+  .about-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: rgb(42, 111, 238) solid 5px;
+    border-style: solid;
+    background-color: rgb(215, 245, 250);
+    margin: 4em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h1 {
+    font-weight: bold;
+    text-align: center;
+    padding: 1.5em;
+  }
+
+  form {
+    text-align: center;
+    padding: 1em;
+    font-size: 1.75em;
+    margin-top: 3em;
+    font-weight: bold;
+  }
+
+  input {
+    border-width: thick;
+  }
+
+  .main-register {
+    border: rgb(42, 111, 238) solid 5px;
+    border-style: solid;
+    background-color: rgb(215, 245, 250);
+    margin: 3em;
+  }
+
+  .Dirty-Beach {
+    height: 15em;
+    width: 20em;
+    margin-top: 1em;
+  }
+
+  .Recycle {
+    height: 15em;
+    width: 15em;
+    margin-top: 1em;
+  }
+
+  .about-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+  }
+
+  .about-img {
+    border: rgb(42, 111, 238) solid 5px;
+  }
+
+
+.carousel-item {
+  height: 32rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .about-article, .index-article {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+
+}
+}
